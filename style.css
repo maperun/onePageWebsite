@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Condensed");
+* { box-sizing: border-box; }
+
+body {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	background-color: #EDECF0;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-right: 100px;
+	margin: 0;
+	overflow: hidden;
+	background-color: white;	
+}
+
+nav li {
+	display: inline-block;
+	margin: 5px;
+}
+
+ nav li a {
+	display: inline-block;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}	
+
+nav li a:hover {
+	background-color: #EDECF0;
+	border-radius: 10px;
+}
+
+#menu {
+	font-size: 20px;
+	background: transparent;
+	display: none;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.craft {
+	width: 100%;
+	margin-top: 60px;
+	background-size: cover;
+}
+
+#main {
+	background-color: white;
+	width: 100%;
+	padding: 40px;
+	margin: 20px;
+	border-radius: 20px;	
+}
+
+h1 {
+	margin-bottom: 40px;
+}
+
+.hops1, .hops2 {
+	width: 400px;
+}
+
+.hops1 {
+	float: right;
+	padding: 20px;
+}
+
+.history {
+	margin-bottom: 80px;
+	width: 75%;
+}
+
+.hops2 {
+	float: right;
+	padding: 20px;
+}
+
+span {
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.facts {
+	clear: both;
+	margin-top: 80px;
+}
+
+/*Responsive*/
+
+@media (max-width: 768px) {
+
+	nav ul {
+		display: none;
+		padding: none;
+	}
+
+	nav li {
+		display: block;
+	}
+
+	nav li a {
+		font-size: 16px;
+	}
+
+	#menu {
+		display: block;
+	}
+
+	.hops1, .hops2 {
+		float: none;
+		width: 100%;
+	}
+}
+
+
+/*
+@media all and (max-width: 1050px) {
+	.history {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 520px) {
+	.hops1, .hops2 {
+		width: 100%;
+	}
+
+	.history {
+		margin-bottom: 20px;
+	}
+}
+*/
+
+
+
+
