@@ -1,6 +1,4 @@
-// $.stellar();
-
-// $('nav').onePageNav();
+$('nav').onePageNav();
 
 // when user clicks menu, toggle the nav ul
 $('#menu').click(function() {

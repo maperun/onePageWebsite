@@ -60,7 +60,7 @@ nav li a:hover {
 
 #main {
 	background-color: white;
-	width: 100%;
+	width: calc(100% - 40px);
 	padding: 40px;
 	margin: 20px;
 	border-radius: 20px;	
@@ -79,7 +79,7 @@ h1 {
 	padding: 20px;
 }
 
-.history {
+#history {
 	margin-bottom: 80px;
 	width: 75%;
 }
@@ -94,7 +94,7 @@ span {
 	padding-right: 10px;
 }
 
-.facts {
+#facts {
 	clear: both;
 	margin-top: 80px;
 }
